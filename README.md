@@ -1,5 +1,5 @@
 # get-depth
-Get the Depth of a Multi-Dimensional Array of Values
+ > Get the Depth of a Multi-Dimensional Array
 
 # install
 ```bash
