@@ -7,6 +7,12 @@ test("depth of one dimensional array of numbers", (t) => {
   t.is(depth, 1);
 });
 
+test("depth of one dimensional typed array of numbers", (t) => {
+  const arr = Uint8Array.from([0, 1, 2, 3, 4, 5, 78]);
+  const depth = getDepth(arr);
+  t.is(depth, 1);
+});
+
 test("depth of two dimensional array of numbers", (t) => {
   const arr = [
     [0, 1],
