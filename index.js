@@ -3,6 +3,7 @@ module.exports = function getDepth(arr) {
     Array.isArray(arr) ||
     arr instanceof Int8Array ||
     arr instanceof Uint8Array ||
+    arr instanceof Uint8ClampedArray ||
     arr instanceof Int16Array ||
     arr instanceof Uint16Array ||
     arr instanceof Int32Array ||
